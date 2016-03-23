@@ -36,6 +36,12 @@ public class SimulationEngine {
         return true;
     }
     
+    public String contactIlluminati()
+       {
+               String message = "The Illuminati is here!";
+               return message;
+       }
+    
     public void startSim()
     {
         System.out.println("Simulation started!");
